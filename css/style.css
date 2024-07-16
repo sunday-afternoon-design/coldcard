@@ -871,8 +871,10 @@ footer .btn.btn-red {
 }
 .main-lets-have-fun{
   position: relative; 
-  width: 100vh; 
-  height: 50vw;
+  /* width: 100vh; */
+  /* height: 50vw; */
+  width: 100vw;
+  height: 100vh;
 }
 .main-lets-have-fun .video-box {
   height: 90%;
