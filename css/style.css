@@ -187,9 +187,14 @@ header.desktop-header {
   /* z-index: -99; */
   left: -59px;
 }
+.banner-img .banner-img-text-1 h3 {
+  position: relative;
+  display: flex;
+}
 .banner-img .banner-img-text-2 h3 {
   position: relative;
-  width: 100px;
+  /* width: 100px; */
+  white-space: nowrap;
   display: flex;
 }
 .banner-text-caption {

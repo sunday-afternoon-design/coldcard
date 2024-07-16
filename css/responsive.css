@@ -1056,8 +1056,8 @@
         }
 
         
-        .banner-img .banner-img-text-1 h3, .banner-img .banner-img-text-2 h3 { 
-            font-size: 16px;
+        .banner-img .banner-img-text-1 h3 a, .banner-img .banner-img-text-2 h3 a { 
+            font-size: 12px;
         }
         .banner-img img {
             width: 54%;
