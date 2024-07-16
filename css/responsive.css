@@ -263,12 +263,12 @@
         position: relative;
         left: 80px;
         padding: 20px 35px 20px 21px;
-        z-index: -99;
+        /* z-index: -99; */
     }
     .banner-img .banner-img-text-2 {
         background-image: url(../images/Layer_1-3.png);
         padding: 15px 14px 16px 69px;
-        z-index: -99;
+        /* z-index: -99; */
         left: -81px;
     }
     .main-banner:before{
@@ -1065,7 +1065,7 @@
         .banner-img .banner-img-text-2 {
             background-image: url(../images/Layer_1-3.png);
             padding: 5px 7px 6px 9px;
-            z-index: -99;
+            /* z-index: -99; */
             left: -15px;
             width: 26%;
         }

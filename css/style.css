@@ -166,20 +166,25 @@ header.desktop-header {
   position: relative;
   left: 59px;
   padding: 20px 35px 20px 47px;
-  z-index: -99;
+  /* z-index: -99; */
 }
 .banner-img .banner-img-text-1 h3,
 .banner-img .banner-img-text-2 h3 {
+  margin: 0;
+}
+.banner-img .banner-img-text-1 h3 a,
+.banner-img .banner-img-text-2 h3 a {
   font-family: "GT Planar me";
   font-size: 21px;
   color: #fff;
   margin: 0;
   line-height: 17px;
+  text-decoration: none;
 }
 .banner-img .banner-img-text-2 {
   background-image: url(../images/Layer_1-3.png);
   padding: 20px 56px 20px 46px;
-  z-index: -99;
+  /* z-index: -99; */
   left: -59px;
 }
 .banner-img .banner-img-text-2 h3 {
@@ -1727,3 +1732,8 @@ section.main-q-sec-15 {
 /* .main-lets-have-fun-3 {
   height: 662px;
 } */
+
+.hero-img {
+  z-index: 10;
+  pointer-events: none;
+}
