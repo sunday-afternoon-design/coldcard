@@ -676,9 +676,12 @@ footer .btn.btn-red {
 .footer ul {
 }
 .footer ul li {
+  margin-bottom: 13px;
+}
+.footer ul li a {
   font-size: 17px;
   color: #fff;
-  margin-bottom: 13px;
+  text-decoration: none;
 }
 .main-powered-by {
   background-color: #000;
