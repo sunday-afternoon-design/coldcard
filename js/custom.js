@@ -71,21 +71,24 @@ jQuery(document).ready(function ($) {
   $("#video-walkthroughs").slick({
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 0,
-    speed: 8000,
-    pauseOnHover: true,
-    cssEase: "linear",
-    arrows: false,
+    prevArrow: '<button type="button" class="slick-prev slick-arrow"><img src="../images/left-arrow.png" alt="Previous"></button>',
+    nextArrow: '<button type="button" class="slick-next  slick-arrow"><img src="../images/right-arrow.png" alt="Next"></button>',
     responsive: [
       {
-        breakpoint: 992,
+        breakpoint: 1100, // tablet breakpoint
+        settings: {
+          slidesToShow: 2 ,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 800, // mobile breakpoint
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
+          slidesToScroll: 1
+        }
+      }
+    ]
   });
 
   //powered
