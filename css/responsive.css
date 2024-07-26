@@ -150,13 +150,16 @@
     .main-mk4-sec-6 {
         margin: 237px 0 26px;
     }
+    #video-walkthroughs .item-video .video-box {
+        height: 188px;   
+    }
     .video-box iframe {
-        height: 259px;
+        height: 188px;
     }
     #video-walkthroughs .item-video .text-caption {
         background-color: #eff1f2;
         padding: 23px 53px 35px;
-        min-height: 182px;
+        height: 162px;
     }
     section.main-banner.banner-mk4 {
         overflow-x: hidden;
@@ -843,8 +846,14 @@
     .main-sec-6.main-q-sec-14:after{
         content: none !important;
     }
+    #video-walkthroughs .item-video .video-box {
+        height: 188px;
+    }
     .video-box iframe {
         height: 188px;
+    }
+    .text-caption {
+        height: 162px;
     }
     .main-lets-have-fun{
         display: none;
