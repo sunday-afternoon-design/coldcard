@@ -27,10 +27,7 @@ tl.to("#text1", { opacity: 1, duration: 0.5 })
   .to("#text6", { opacity: 1, duration: 0.5 })
   .to("#text6", { opacity: 0, duration: 0.5 }, "+=0.5")
   .to("#img3", { display: "none", duration: 0 })
-  .to("#img1", { display: "inline", duration: 0 })
 
-
-  .to("#img1", { display: "none", duration: 0.5 })
   .to(".title-q", { display: "none", duration: 0 })
   .to(".title-mk", { display: "inline", duration: 0 })
   .to("#img4", { display: "inline", duration: 0.5 })
